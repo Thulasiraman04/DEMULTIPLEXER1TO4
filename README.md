@@ -52,7 +52,7 @@ module demux(y0,y1,y2,y3,s1,s0,I);
      assign y1 = I & s0 & s1n;
      assign y2 = I & s0n & s1;
      assign y3 = I & s0 & s1;
- endmodule~~~
+ endmodule
 
 
  # output
