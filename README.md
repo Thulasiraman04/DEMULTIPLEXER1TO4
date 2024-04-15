@@ -41,8 +41,8 @@ STEP:12 On the board, by giving required input, the LEDs starts to glow light, i
 ![image](https://github.com/RESMIRNAIR/DEMULTIPLEXER1TO4/assets/154305926/a3075cf9-55ba-4478-b20c-c7128badef04)
 ![image](https://github.com/RESMIRNAIR/DEMULTIPLEXER1TO4/assets/154305926/e07386db-69b3-4a5f-945f-b38929b801ea)
 # program 
-Developed by: Dhivyadharshini S
-Register number: 212222060051
+~~~Developed by: Thulasi raman.S
+Register number: 212221060287
 module demux(y0,y1,y2,y3,s1,s0,I);
  input I,s0,s1;
  output y0,y1,y2,y3;
@@ -52,7 +52,7 @@ module demux(y0,y1,y2,y3,s1,s0,I);
      assign y1 = I & s0 & s1n;
      assign y2 = I & s0n & s1;
      assign y3 = I & s0 & s1;
- endmodule
+ endmodule~~~
 
 
  # output
